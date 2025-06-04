@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "path-to-legends",
+	"version": "${version}",
+	"name": "Path to Legends",
+	"description": "Path-to-Legends by BeiBeihuli based on MegaShowdown by yajatkaul",
+	"authors": [
+		"BeiBeihuli"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/path-to-legends/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.modid.PathToLegends"
+		],
+		"fabric-datagen": [
+			"name.modid.PathToLegendsDataGenerator"
+		],
+		"clinet": [
+			"name.modid.PathToLegendsClient"
+		]
+	},
+	"mixins": [
+		"path-to-legends.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
