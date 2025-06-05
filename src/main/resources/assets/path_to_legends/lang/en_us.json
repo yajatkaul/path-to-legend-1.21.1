@@ -1,0 +1,32 @@
+{
+  "item.path_to_legends.azure_flute": "§dAzure Flute",
+  "item.path_to_legends.azure_flute.tooltip": "§8A flute that puts out echoing sounds that do not seem to be of this world. No one knows who made it or when.",
+
+  "item.path_to_legends.uxie_claw": "§dUxie Claw",
+  "item.path_to_legends.uxie_claw.tooltip": "§8Proof that you have completed the trial set by Uxie, the Being of Knowledge that lives in Lake Acuity. This item is needed to forge the Red Chain.",
+
+  "item.path_to_legends.mesprit_plume": "§dMesprit Plume",
+  "item.path_to_legends.mesprit_plume.tooltip": "§8Proof that you have completed the trial set by Mesprit, the Being of Emotion that lives in Lake Verity. This item is needed to forge the Red Chain.",
+
+  "item.path_to_legends.azelf_fang": "§dAzelf Fang",
+  "item.path_to_legends.azelf_fang.tooltip": "§8Proof that you have completed the trial set by Azelf, the Being of Willpower that lives in Lake Valor. This item is needed to forge the Red Chain.",
+
+  "item.path_to_legends.red_chain": "§dRed Chain",
+  "item.path_to_legends.red_chain.tooltip": "§8A mythical chain that is said to link the legendary Pokémon that created the Sinnoh region.",
+
+  "item.path_to_legends.light_shard": "§dLight Shard",
+  "item.path_to_legends.light_shard.tooltip": "§8Obtained from Dragonspiral Tower. This item is needed to forge the Light Stone.",
+
+  "item.path_to_legends.light_stone": "§dLight Stone",
+  "item.path_to_legends.light_stone.tooltip": "§8Reshiram's body was destroyed and changed into this stone. It is said to be waiting for the emergence of a hero.",
+
+  "item.path_to_legends.dark_shard": "§dDark Shard",
+  "item.path_to_legends.dark_shard.tooltip": "§8Obtained from Dragonspiral Tower. This item is needed to forge the Dark Stone.",
+
+  "item.path_to_legends.dark_stone": "§dDark Stone",
+  "item.path_to_legends.dark_stone.tooltip": "§8Zekrom's body was destroyed and changed into this stone. It is said to be waiting for the emergence of a hero.",
+
+  "block.path_to_legends.pedestal": "§dPedestal",
+
+  "itemgroup.path_to_legends.path_to_legends_items": "Path To Legends Items"
+}

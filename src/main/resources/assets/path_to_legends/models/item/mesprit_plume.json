@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated" ,
+  "textures": {
+    "layer0": "path_to_legends:item/mesprit_plume"
+  }
+}
