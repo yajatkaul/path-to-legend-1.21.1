@@ -1,7 +1,6 @@
-package name.modid.item;
+package cobblemon.path_to_legends.item;
 
-import name.modid.PathToLegends;
-import name.modid.block.ModBlocks;
+import cobblemon.path_to_legends.PathToLegends;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;

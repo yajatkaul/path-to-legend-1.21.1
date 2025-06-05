@@ -1,22 +1,19 @@
-package name.modid.block;
+package cobblemon.path_to_legends.block;
 
-//import name.modid.block.custom.PedestalBlock;
+import com.cobblemon.yajatkaul.mega_showdown.block.custom.PedestalBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
-import name.modid.PathToLegends;
+import cobblemon.path_to_legends.PathToLegends;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    //public static final Block PEDESTAL = registerBlock("pedestal",
-   //         new PedestalBlock(AbstractBlock.Settings.create().nonOpaque()));
-
-
+    public static final Block PEDESTAL = registerBlock("pedestal",
+            new PedestalBlock(AbstractBlock.Settings.create().nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -30,7 +27,5 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         PathToLegends.LOGGER.info("Registering Mod Block for "+ PathToLegends.MOD_ID);
-
-
     }
 }

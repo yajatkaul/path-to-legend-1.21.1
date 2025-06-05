@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "name.modid.mixin",
+	"package": "cobblemon.path_to_legends.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+
 	],
 	"injectors": {
 		"defaultRequire": 1

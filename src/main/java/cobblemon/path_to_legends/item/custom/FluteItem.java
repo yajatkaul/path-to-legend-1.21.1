@@ -1,4 +1,4 @@
-package name.modid.item.custom;
+package cobblemon.path_to_legends.item.custom;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.Item;
