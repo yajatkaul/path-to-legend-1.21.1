@@ -1,4 +1,4 @@
-package name.modid;
+package cobblemon.path_to_legends;
 
 import net.fabricmc.api.ClientModInitializer;
 

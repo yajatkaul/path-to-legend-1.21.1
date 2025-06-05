@@ -1,11 +1,8 @@
-package name.modid.item;
+package cobblemon.path_to_legends.item;
 
-import name.modid.PathToLegends;
-import name.modid.PathToLegendsClient;
-import name.modid.item.custom.FluteItem;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import cobblemon.path_to_legends.PathToLegends;
+import cobblemon.path_to_legends.item.custom.FluteItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;

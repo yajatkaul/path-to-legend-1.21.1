@@ -1,8 +1,8 @@
-package name.modid;
+package cobblemon.path_to_legends;
 
-import name.modid.block.ModBlocks;
-import name.modid.item.ModItemGroups;
-import name.modid.item.ModItems;
+import cobblemon.path_to_legends.block.ModBlocks;
+import cobblemon.path_to_legends.item.ModItemGroups;
+import cobblemon.path_to_legends.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
