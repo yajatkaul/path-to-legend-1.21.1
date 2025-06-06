@@ -1,46 +1,30 @@
 package cobblemon.path_to_legends.block.custom;
 
 import cobblemon.path_to_legends.block.custom.entity.PedestalBlockEntity;
+import com.cobblemon.yajatkaul.mega_showdown.block.custom.PedestalBlock;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
 import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
-import net.minecraft.state.StateManager;
-import net.minecraft.state.property.DirectionProperty;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ItemActionResult;
 import net.minecraft.util.ItemScatterer;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Direction;
 import net.minecraft.util.shape.VoxelShape;
-import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
-public class SimplePedestalBlock extends BlockWithEntity implements BlockEntityProvider {
-    public static final DirectionProperty FACING = DirectionProperty.of("facing", Direction.NORTH, Direction.SOUTH, Direction.EAST, Direction.WEST);
+public class SimplePedestalBlock extends PedestalBlock {
     public static final MapCodec<SimplePedestalBlock> CODEC = SimplePedestalBlock.createCodec(SimplePedestalBlock::new);
     private static final VoxelShape SHAPE =
             Block.createCuboidShape(0, 0, 0, 16, 16, 16);
 
     public SimplePedestalBlock(Settings settings) {
         super(settings);
-        this.setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.NORTH));
-    }
-
-    @Override
-    protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
-        builder.add(FACING); // Add facing property to the block's state
-    }
-
-    @Override
-    protected VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
-        return SHAPE;
     }
 
     @Override
@@ -97,11 +81,5 @@ public class SimplePedestalBlock extends BlockWithEntity implements BlockEntityP
         }
 
         return ItemActionResult.SUCCESS;
-    }
-
-    @Override
-    public BlockState getPlacementState(ItemPlacementContext ctx) {
-        Direction direction = ctx.getHorizontalPlayerFacing().getOpposite();
-        return this.getDefaultState().with(FACING, direction);
     }
 }
