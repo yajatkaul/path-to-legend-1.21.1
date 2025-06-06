@@ -1,5 +1,20 @@
 {
   "variants": {
-    "": {"model": "path_to_legends:block/pedestal"}
+    "facing=north": {
+      "model": "path_to_legends:block/pedestal",
+      "y": 0
+    },
+    "facing=south": {
+      "model": "path_to_legends:block/pedestal",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "path_to_legends:block/pedestal",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "path_to_legends:block/pedestal",
+      "y": 90
+    }
   }
 }
