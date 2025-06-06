@@ -1,6 +1,7 @@
 package cobblemon.path_to_legends;
 
 import cobblemon.path_to_legends.block.ModBlocks;
+import cobblemon.path_to_legends.block.custom.entity.ModBlockEntities;
 import cobblemon.path_to_legends.item.ModItemGroups;
 import cobblemon.path_to_legends.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -18,5 +19,6 @@ public class PathToLegends implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModBlockEntities.registerBlockEntities();
 	}
 }

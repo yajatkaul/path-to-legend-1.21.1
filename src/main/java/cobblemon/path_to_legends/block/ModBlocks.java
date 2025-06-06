@@ -1,6 +1,6 @@
 package cobblemon.path_to_legends.block;
 
-import com.cobblemon.yajatkaul.mega_showdown.block.custom.PedestalBlock;
+import cobblemon.path_to_legends.block.custom.SimplePedestalBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import cobblemon.path_to_legends.PathToLegends;
@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block PEDESTAL = registerBlock("pedestal",
-            new PedestalBlock(AbstractBlock.Settings.create().nonOpaque()));
+            new SimplePedestalBlock(AbstractBlock.Settings.create().nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

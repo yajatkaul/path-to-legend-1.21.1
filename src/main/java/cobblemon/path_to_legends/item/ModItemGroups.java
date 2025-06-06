@@ -1,6 +1,7 @@
 package cobblemon.path_to_legends.item;
 
 import cobblemon.path_to_legends.PathToLegends;
+import cobblemon.path_to_legends.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -25,6 +26,7 @@ public class ModItemGroups {
                         entries.add(ModItems.DARK_STONE);
                         entries.add(ModItems.AZURE_FLUTE);
                         entries.add(ModItems.CELESTICA_FLUTE);
+                        entries.add(ModBlocks.PEDESTAL);
                     }).build());
     public static void registerItemGroups(){
         PathToLegends.LOGGER.info("Registering Item Groups for " + PathToLegends.MOD_ID);
